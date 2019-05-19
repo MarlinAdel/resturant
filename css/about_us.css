@@ -1,0 +1,149 @@
+.bg_img{
+        background-image: url(../images/aboutus-back.jpg),-webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.01) 1%,rgba(0,0,0,0.99) 99%,rgba(0,0,0,1) 100%);
+        background-blend-mode: overlay;
+        background-repeat: no-repeat;
+        background-size: cover;
+/*        background-position: 0 -180px;*/
+        padding-top: 9rem;
+        padding-bottom: 6rem;
+}
+.information div{
+    width: 37vw;
+    margin: 0 auto;
+}
+h1{
+    font-size:2rem;
+    margin-bottom: 0;
+}
+.information p{
+    font-size: 0.7rem;
+}
+.padding_bot{
+        padding-bottom: 2rem;
+}
+.content{
+    width: 70vw;
+    margin: 0 auto;
+}
+.sections{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+}
+.bg_img txt_center p{
+    font-size: 1em;
+}
+.bg_img .txt_center h3{
+    font-size: 1rem;
+}
+.imgs{
+    border: 4px solid white;
+    border-radius: 50%;
+}
+.about_us h2{
+    padding-top: 2rem;
+    font-size: 1.6em;
+}
+.mission , .vision , .values{
+    height: 8rem;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.mission{
+    background-image: url(../images/ourMissionHome.jpg);
+}
+.vision{
+     background-image: url(../images/ourVisionHome.jpg);
+}
+.values{
+    background-image: url(../images/ourValuesHome.jpg);
+}
+.overlay{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.mission:hover .overlay, .vision:hover .overlay, .values:hover .overlay{
+    display: block;
+ }
+.icons{
+    color: white;
+    font-size: 3rem;
+    padding-top:1.3rem;
+}
+.newsletter{
+    background-image: url(../images/aboutus-whatwedo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.about_us h3{
+    font-size: 1.6em;
+}
+.newsletter h2{
+    font-size: 2rem;
+}
+.services h2{
+    margin: 0;
+    font-size: 0.8rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.two_sec{
+    grid-template-columns: 1fr 1fr;
+}
+.background_image{
+    background-image: url(../images/aboutus-horecastar.jpg);
+}
+.background_image2{
+    background-image: url(../images/aboutus-tradeyard.jpg);
+}
+.background_image3{
+     background-image: url(../images/aboutus-ihoreca.jpg);
+}
+.background_image , .background_image2 , .background_image3{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%
+}
+.bg_gren{
+    background-color: #82a759;
+}
+.bg_simon{
+    background-color: #da7c4b;
+}
+.bg_gry{
+    background-color: #a7a7a7;
+}
+.bg_gren div , .bg_simon div , .bg_gry div{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.bg_gry div span{
+    color: #d67843;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

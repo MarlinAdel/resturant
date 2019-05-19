@@ -1,0 +1,162 @@
+.bg_img{
+        background-image: url(../images/waiter.jpg),-webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.01) 1%,rgba(0,0,0,0.99) 99%,rgba(0,0,0,1) 100%);
+        background-blend-mode: overlay;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 9rem;
+        padding-bottom: 6rem;
+}
+.information div{
+    width: 29vw;
+    margin: 0 auto;
+}
+h1{
+    font-size:2rem;
+    margin-bottom: 0;
+}
+.information p{
+    font-size: 0.7rem;
+    margin-top: 0;
+}
+.bg_gray{
+    position: relative;
+}
+.wid{
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.bg_gray .items{
+    margin-right: 2rem;
+    position: absolute;
+    padding: 10px 25px;
+}
+.categories .items:focus{
+    background-color: #86a64c;
+}
+#all{left: 490px;}
+#cafes{left: 549px;}
+#Restaurants{left: 621px;}
+#hotels{left: 727px;}
+#catering{left: 810px;}
+.slider{
+    margin-top: 2rem;
+}
+.categories #cafeLogos , .categories #restLogos , .categories #hotelLogos , .categories #caterLogos{
+    display: none;
+}
+.categories span:focus ~ .slider{
+    display: none;
+}
+.categories span#all:focus ~ #allLogos{
+    display: block;
+}
+.categories span#cafes:focus ~ #cafeLogos{
+    display: block;
+}
+.categories span#hotels:focus ~ #restLogos{
+    display: block;
+}
+.categories span#Restaurants:focus ~ #hotelLogos{
+    display: block;
+}
+.categories span#catering:focus ~ #caterLogos{
+    display: block;
+}
+.wid h2 , .wid h4{
+    padding-bottom: 0.5rem;
+}
+.item li:hover{
+    background-color: #86a64c;
+    border: 1px  solid #86a64c;
+   }
+.bg_green{
+    background-color: #86a64c;
+    position: relative;
+}
+.bg_green>div{
+    width: 55%;
+    margin: 0 auto;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.brands{    
+    justify-content: center;
+}
+.casper , .crave , .steak{
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-position: center;
+    background-color: white;
+    filter: opacity(0.5);
+    margin-right: 1em;
+}
+.casper:hover , .crave:hover , .steak:hover{
+    transform: scale(1.1);
+    filter: none;
+}
+.casper{
+    background-image: url(../images/casper.png);
+}
+.crave{
+   background-image: url(../images/crave.png); 
+}
+.steak{
+    background-image: url(../images/steak%20out.png);
+}
+.bg_green h2{
+    font-size: 1rem;
+}
+.bg_green hr{
+    width: 5%;
+}
+.bg_green h4{
+    margin-bottom: 0;
+}
+.bg_green h6{
+    margin: 0;
+}
+.qoute_top{
+    position: absolute;
+    top: -46px;
+    right: 377px;
+}
+.qoute_bottom i{
+    position: absolute;
+    bottom: -4px;
+    left: 1067px;
+}
+.qoute_top i , .qoute_bottom i{
+    color: white;
+    font-size: 2rem;
+}
+.slider{
+    background-color: white;
+}
+.sub_slider{
+    width: 90vw;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: white;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    width: 307%;
+        position: relative;
+    animation: slider_logo 8s linear infinite;
+    animation-fill-mode: both;
+}
+@keyframes slider_logo{
+    0%{left: 0;}
+    100%{left: -203.5%;}
+}
+.logos img{
+    padding: 3.3rem 1.614rem 3.3rem 1.614rem;
+}
+

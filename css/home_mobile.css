@@ -1,0 +1,67 @@
+html{
+    overflow-x: hidden;
+}
+bo
+body{
+    font-size: 10px;
+}
+html{
+    font-size: 20px;
+}
+.header i{
+    display: inline;
+    font-size: 1rem;
+    color: white;
+}
+.header ul.list{
+    display: none;
+}
+.header i{
+    display: inline;
+}
+.header img{
+    width: 10rem;
+}
+.bg_img{
+        background-position:0;
+        background-position: center;
+}
+.bg_img .display_grid .padding_bot{
+    margin: 0 auto;
+}
+.sections{
+    grid-template-columns: 1fr;
+}
+.display_grid .photo{
+    width: 12rem;
+}
+.parent input{
+    width: 11.6rem;
+}
+.child{
+    left: 174px;
+}
+.child button{
+    width: 4.6rem;
+}
+.two_sec{
+    grid-template-columns: 1fr;
+}
+.two_sec div{
+    margin-bottom: 2rem;
+}
+.follow_us div{
+    grid-template-columns: 1fr;
+}
+.footer .display_grid {
+    grid-template-columns: 1fr;   
+}
+.footer .info{
+    margin-bottom: 2rem;
+}
+.footer .background{
+    margin: 0 auto;
+}
+.footer .border_rigth{
+    margin-right: 2rem;
+}

@@ -1,0 +1,66 @@
+.bg_imge{
+    background-image: url(../images/footerBack.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+        background-position: center;
+
+}
+.footer .display_grid{
+    grid-template-columns: 1fr 1fr;
+}
+.bg_imge div.display_grid h4{
+    font-size: 1.6em;
+}
+.background{
+    background-image: url(../images/bracketsfooter.png);
+        background-size: contain;
+    background-repeat: no-repeat;
+        width: 50%;
+        margin-left: 20px;
+}
+.background{
+    height: 5rem;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.background p{
+    font-size: 12px;
+}
+.background .txt_center{
+    padding-top: 20px;
+}
+.background p{
+    margin-top: 0;
+     margin-bottom: 0;
+}
+.bg_imge .info h4{
+    margin-bottom: 0;
+     margin-top: 0;
+}
+.info{
+    color: #616835;
+   font-family:HelveticaNeueLTStd-Cn;
+}
+
+.display_flex h4{
+    margin-top: 0;
+}
+.border_rigth{
+	    border-right: 2px solid white;
+}
+.border_rigth img{
+	margin-right:1rem;
+}
+.bg_imge .content .display_grid{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+/*
+.footer .display_flex{
+    justify-content: space-around;
+}
+.footer{
+    justify-content: space-evenly;
+}*/

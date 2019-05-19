@@ -1,0 +1,222 @@
+.bg_img{
+        background-image: url(../images/home-bg.jpg),-webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(0,0,0,1) 100%);
+        background-repeat: no-repeat;
+        background-blend-mode: overlay;
+        background-size: cover;
+/*        background-position: 0 -180px;*/
+        padding-top: 7rem;
+}
+.bg_img div.content{
+    padding-bottom: 3rem;
+}
+.padding_bot{
+        padding-bottom: 2rem;
+}
+.content{
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.display_grid .photo{
+   width: 18rem; 
+}
+.sections{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+}
+..bg_img txt_center p{
+    font-size: 1em;
+}
+.bg_img .txt_center h3{
+    font-size: 1rem;
+}
+.imgs{
+    border: 4px solid white;
+    border-radius: 50%;
+}
+
+.about_us h2{
+    padding-top: 2rem;
+    font-size: 1.6em;
+}
+.mission , .vision , .values{
+    height: 8rem;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.mission{
+    background-image: url(../images/ourMissionHome.jpg);
+}
+.vision{
+     background-image: url(../images/ourVisionHome.jpg);
+}
+.values{
+    background-image: url(../images/ourValuesHome.jpg);
+}
+.overlay{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+     
+}
+.mission:hover .overlay, .vision:hover .overlay, .values:hover .overlay{
+    display: block;
+ 
+}
+.icons{
+    color: white;
+    font-size: 3rem;
+    padding-top:1.3rem;
+}
+.text{
+    padding-bottom: 1.2rem;
+}
+
+.newsletter{
+    background-image: url(../images/newsletter-back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 3rem;
+    padding-bottom: 3.5rem;
+    background-position: center;
+}
+.about_us h3{
+    font-size: 1.6em;
+}
+.newsletter h2{
+    font-size: 1rem;
+}
+.parent{
+    position: relative;
+    padding-top: 60px;
+}
+.child{
+    position: absolute;
+    bottom: 0.5px;
+    left: 300px;
+}
+.parent input{
+    width: 16.6rem;
+    height: 1.6rem;
+    border-radius: 100px;
+    padding-left: 40px;
+     background-color: rgba(215,215,215,0.2);
+    border: 1px solid white;
+}
+.child button{
+    width: 6.6rem;
+    height: 1.6rem;
+    border-radius: 100px;
+    background-color:white;
+    border: none;
+}
+::placeholder { 
+    color: white; font-size:1.2em; font-family: HelveticaNeueLTStd-Cn;
+}
+.two_sec{
+    grid-template-columns: 1fr 1fr;
+}
+.two_sec img{
+    width:10.6rem;
+    height: 10.3rem;
+    border-radius: 50%;
+}
+.two_sec h3{
+    font-size: 1rem;
+}
+.btn_green{
+    background-color: #86a64c;
+}
+.btn_simon{
+    background-color: #f8b882;
+}
+.signin-up img{
+    border-color:2px solid #f8b882;
+}
+.signin-up{
+    padding-top: 2rem;
+     padding-bottom: 2rem;
+}
+.border_simon{
+    border: 3px solid #f8b882;
+}
+.border_green{
+    border: 3px solid #86a64c;
+}
+/* slider */
+.slider h2{
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+.slider{
+   width: 70%;
+   margin: 0 auto;
+   overflow: hidden;
+    padding-bottom:  1rem;
+}
+.innerslid{
+  width: 300%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  animation: sliderLogos 7s infinite linear;
+  animation-fill-mode: both;
+}
+@keyframes sliderLogos{
+   0% { left: 0%; }
+   13% { left: 0%; }
+   17% { left: -16.7%; }
+   30% { left: -16.7%; }
+   34% { left: -33.4%; }
+   47% { left: -33.4%; }
+   51% { left: -50.1%; }
+   64% { left: -50.1%; }
+   68% { left: -66.8%; }
+   81% { left: -66.8%; }
+   85% { left: -83.5%; }
+   96% { left: -83.5%; }
+   100% { left: -100%; }
+   }
+.innerslid img{
+   margin: 0 15px;
+   width: 4.5%;
+}
+.innerslid img:hover{
+    transform: scale(1.1);
+/*    animation-play-state: paused;*/
+}
+.follow_us{
+    background-color: #d75d0e;
+}
+.width{
+    width:30vw;
+    margin: 0 auto;
+    color: #ebae87;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.follow_us div.display_grid{
+    align-items: center;
+}
+.follow_us i{
+  font-size: 1.5rem;
+        margin-right: 20px;
+}
+.follow_us i:hover{
+    transform: scale(1.1);
+    color: white;
+}
+.follow_us div{
+    grid-template-columns: 1fr 1fr;
+}
+.border_rigth{
+	    border-right: 2px solid white;
+}
+.border_rigth img{
+	margin-right:1rem;
+}

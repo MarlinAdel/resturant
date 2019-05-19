@@ -1,0 +1,48 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    font-size: 12px;
+}
+html{
+    font-size: 22px;
+}
+.header i{
+    display: inline;
+    font-size: 1rem;
+    color: white;
+}
+.header ul.list{
+    display: none;
+}
+.header i{
+    display: inline;
+}
+.bg_img{
+        background-position:0;
+}
+.bg_img .display_grid .padding_bot{
+    margin: 0 auto;
+}
+.info{
+    margin-bottom: 1rem;
+}
+.follow_us div{
+    grid-template-columns: 1fr;
+}
+.follow_us{
+    text-align: center;
+}
+.footer .display_grid{
+    grid-template-columns: 1fr;
+}
+.footer .background{
+    margin: 0 auto;
+}
+.footer .display_flex{
+        width: 70%;
+    margin: 0 auto;
+}
+.footer .border_rigth{
+    margin-right: 20px;
+}
